@@ -25,7 +25,7 @@ class Program
                 if (operation == "=")
                 {
                     Console.WriteLine("Program terminated.");
-                    return; // Exit the entire program
+                    return; 
                 }
 
                 if (operation == "+" || operation == "-" || operation == "*" || 
@@ -47,7 +47,7 @@ class Program
                 Console.WriteLine($"Result: {result}");
             }
             
-            Console.WriteLine(); // Spacing for the next loop
+            Console.WriteLine(); 
         }
     }
 }
